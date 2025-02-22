@@ -256,13 +256,13 @@ def main():
 
     scene = json.load(
         open(
-            "/tmp/avse1_data/metadata/scenes.train.json",
+            "./../../data_set/avse3_data/metadata/scenes.train.json",
             "r",
         )
     )[0]
 
     renderer = Renderer(
-        input_path="/tmp/avse1_data/",
+        input_path="./../../data_set/avse3_data/",
         output_path=".",
         num_channels=1,
     )

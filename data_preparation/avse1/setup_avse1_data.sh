@@ -4,11 +4,11 @@
 root=/tmp/avse1_data/ # EDIT_THIS
 
 # path to LRS3 data (pretrain and trainval directories should be located there)
-LRS3=/tmp/LRS3/ # EDIT_THIS
+LRS3=./../../data_set/LRS3/ # EDIT_THIS
 
 # path to AVSE1 data
 # wget https://data.cstr.ed.ac.uk/cogmhear/protected/avse1_data.tar
-avse1data=/tmp/avse1_data.tar # EDIT_THIS
+avse1data=./../../data_set/avse3_data.tar # EDIT_THIS
 
 ###########################################################
 # Set up working directory structure and data

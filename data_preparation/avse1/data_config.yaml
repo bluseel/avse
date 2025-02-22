@@ -1,4 +1,4 @@
-root: /tmp/avse1_data/
+root: ./../../data_set/avse3_data/
 input_path: ${root}/
 metadata_dir: ${input_path}/metadata/
 
@@ -9,7 +9,7 @@ target:
   target_selection: SEQUENTIAL
 
 snr_range:
-  train: 
+  train:
     speech: [-15, 5]
     noise: [-10, 10]
   dev:
